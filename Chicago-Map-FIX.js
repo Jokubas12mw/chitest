@@ -1109,12 +1109,15 @@ if (reversed == null) { reversed = false; }
 	cjs.MovieClip.apply(this,[props]);
 
 	// Layer_1
-	this.instance = new lib.Bitmap1811();
+	this.instance = new lib.ClipGroup();
+	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.ClipGroup();
-	this.instance_1.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
+	this.instance_1 = new lib.Bitmap1811();
 
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
+	this.instance_2 = new lib.ClipGroup();
+	this.instance_2.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
+
+	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_2},{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
@@ -3162,8 +3165,8 @@ lib.properties = {
 	color: "#FFFFFF",
 	opacity: 0.00,
 	manifest: [
-		{src:"images/Chicago_Map_FIX_atlas_1.png?1733731740513", id:"Chicago_Map_FIX_atlas_1"},
-		{src:"images/Chicago_Map_FIX_atlas_2.png?1733731740514", id:"Chicago_Map_FIX_atlas_2"}
+		{src:"images/Chicago_Map_FIX_atlas_1.png", id:"Chicago_Map_FIX_atlas_1"},
+		{src:"images/Chicago_Map_FIX_atlas_2.png", id:"Chicago_Map_FIX_atlas_2"}
 	],
 	preloads: []
 };
