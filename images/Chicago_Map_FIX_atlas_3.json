@@ -1,0 +1,59 @@
+﻿{"frames": {
+
+"Bitmap1811":
+{
+	"frame": {"x":1134,"y":992,"w":630,"h":494},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":494},
+	"sourceSize": {"w":630,"h":494}
+},
+"Bitmap19":
+{
+	"frame": {"x":1258,"y":495,"w":630,"h":495},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":495},
+	"sourceSize": {"w":630,"h":495}
+},
+"Bitmap24":
+{
+	"frame": {"x":1258,"y":0,"w":633,"h":493},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":633,"h":493},
+	"sourceSize": {"w":633,"h":493}
+},
+"Bitmap28":
+{
+	"frame": {"x":1134,"y":1488,"w":630,"h":494},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":630,"h":494},
+	"sourceSize": {"w":630,"h":494}
+},
+"CachedBmp_82":
+{
+	"frame": {"x":0,"y":0,"w":1256,"h":981},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1256,"h":981},
+	"sourceSize": {"w":1256,"h":981}
+},
+"CachedBmp_83":
+{
+	"frame": {"x":0,"y":983,"w":1132,"h":971},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":1132,"h":971},
+	"sourceSize": {"w":1132,"h":971}
+}},
+"meta": {
+	"app": "Adobe Animate",
+	"version": "24.0.6.54",
+	"image": "Chicago_Map_FIX_atlas_3.png",
+	"format": "undefined",
+	"size": {"w":2048,"h":2048},
+	"scale": "1"
+}
+}
