@@ -3,10 +3,8 @@
 var p; // shortcut to reference prototypes
 var lib={};var ss={};var img={};
 lib.ssMetadata = [
-		{name:"Chicago_Map_FIX_atlas_1", frames: [[0,0,1766,1384]]},
-		{name:"Chicago_Map_FIX_atlas_2", frames: [[0,0,1764,1380]]},
-		{name:"Chicago_Map_FIX_atlas_3", frames: [[0,983,1132,971],[0,0,1256,981],[1134,992,630,494],[1258,495,630,495],[1258,0,633,493],[1134,1488,630,494]]},
-		{name:"Chicago_Map_FIX_atlas_4", frames: [[1893,21,79,17],[1263,988,115,136],[1939,304,15,13],[1939,319,15,13],[1939,334,15,13],[1939,349,15,13],[1939,364,15,13],[1956,304,15,13],[1957,259,15,13],[1965,234,15,13],[1972,204,15,13],[1380,1082,14,13],[1396,1082,14,13],[1974,40,17,13],[1955,119,17,13],[1974,119,17,13],[1980,79,17,13],[1981,55,17,13],[1980,94,17,13],[1954,159,17,13],[1954,204,16,13],[1954,219,16,13],[1972,219,15,13],[1939,259,16,13],[1939,274,16,13],[1957,274,15,13],[1957,289,15,13],[1973,159,15,13],[1980,134,15,13],[1973,174,15,13],[1973,189,15,13],[1956,319,15,13],[1956,334,15,13],[1956,349,15,13],[1956,364,15,13],[1380,1097,14,13],[1954,174,17,13],[1954,189,17,13],[1939,289,16,13],[1928,139,24,18],[1928,159,24,18],[1928,179,24,18],[1970,0,25,18],[1928,199,24,18],[1955,79,23,18],[1912,257,25,18],[1928,219,24,18],[1939,239,24,18],[1912,277,25,18],[1912,297,25,18],[1912,317,25,18],[1912,337,25,18],[1912,357,25,18],[1928,59,25,18],[1928,79,25,18],[1954,139,24,18],[1955,59,24,18],[1955,99,23,18],[1380,1067,15,13],[1397,1067,15,13],[1928,99,25,18],[1928,119,25,18],[1974,20,24,18],[1893,59,17,79],[1893,140,17,79],[1893,221,17,79],[1893,302,17,79],[1893,40,79,17],[1893,0,75,19],[1380,988,136,39],[1380,1029,140,36],[1518,988,129,39],[1893,415,14,64],[1912,59,14,64],[1912,125,14,64],[1912,191,14,64],[1893,383,66,14],[1893,399,66,14],[1263,1126,143,39],[633,0,630,492],[1974,55,2,2],[1265,0,626,492],[0,0,631,493],[1263,494,629,492],[633,494,628,493],[632,990,629,493],[0,495,631,493],[0,990,630,493]]}
+		{name:"Chicago_Map_FIX_atlas_1", frames: [[0,983,1132,971],[0,0,1256,981],[1134,992,630,494],[1258,495,630,495],[1258,0,633,493],[1134,1488,630,494]]},
+		{name:"Chicago_Map_FIX_atlas_2", frames: [[117,1526,79,17],[0,1485,115,136],[371,1541,15,13],[372,1526,15,13],[477,1523,15,13],[494,1523,15,13],[511,1523,15,13],[528,1523,15,13],[1895,0,15,13],[1895,15,15,13],[1895,30,15,13],[1895,240,14,13],[1895,255,14,13],[16,1704,17,13],[81,1679,17,13],[258,1585,17,13],[259,1545,17,13],[259,1560,17,13],[258,1600,17,13],[298,1526,17,13],[317,1541,16,13],[335,1541,16,13],[1895,45,15,13],[336,1526,16,13],[353,1541,16,13],[1895,60,15,13],[1895,75,15,13],[1895,90,15,13],[1895,105,15,13],[1895,120,15,13],[1895,135,15,13],[1895,150,15,13],[1895,165,15,13],[1895,180,15,13],[1895,195,15,13],[1895,270,14,13],[298,1541,17,13],[317,1526,17,13],[354,1526,16,13],[206,1585,24,18],[206,1605,24,18],[152,1621,24,18],[54,1639,25,18],[122,1627,24,18],[81,1639,23,18],[54,1659,25,18],[178,1621,24,18],[232,1585,24,18],[54,1679,25,18],[152,1561,25,18],[152,1581,25,18],[152,1601,25,18],[179,1561,25,18],[179,1581,25,18],[179,1601,25,18],[233,1545,24,18],[233,1565,24,18],[81,1659,23,18],[1895,210,15,13],[1895,225,15,13],[206,1545,25,18],[206,1565,25,18],[232,1605,24,18],[279,1526,17,79],[117,1545,17,79],[0,1623,17,79],[19,1623,17,79],[198,1526,79,17],[400,1523,75,19],[262,1485,136,39],[400,1485,144,36],[546,1485,129,39],[136,1561,14,64],[106,1626,14,64],[38,1639,14,64],[0,1704,14,64],[38,1623,66,14],[136,1545,66,14],[117,1485,143,39],[1264,495,630,492],[1264,1483,626,492],[0,0,631,493],[1264,989,629,492],[1265,0,628,493],[633,495,629,493],[0,495,631,493],[0,990,630,493],[632,990,630,493],[633,0,630,493]]}
 ];
 
 
@@ -31,673 +29,666 @@ lib.ssMetadata = [
 
 
 (lib.CachedBmp_81 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_84 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_79 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_78 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_77 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(4);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_76 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(5);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_75 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(6);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_74 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(7);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_73 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(8);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_72 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(9);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_71 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(10);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_70 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(11);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_69 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(12);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_68 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(13);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_67 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(14);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_66 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(15);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_65 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(16);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_64 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(17);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_63 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(18);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_62 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(19);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_61 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(20);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_60 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(21);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_59 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(22);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_58 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(23);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_57 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(24);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_56 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(25);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_55 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(26);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_54 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(27);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_53 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(28);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_52 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(29);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_51 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(30);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_50 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(31);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_49 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(32);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_48 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(33);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_47 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(34);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_46 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(35);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_45 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(36);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_44 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(37);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_43 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(38);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_42 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(39);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_41 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(40);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_40 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(41);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_39 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(42);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_38 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(43);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_37 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(44);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_36 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(45);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_35 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(46);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_34 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(47);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_33 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(48);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_32 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(49);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_31 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(50);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_30 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(51);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_29 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(52);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_28 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(53);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_27 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(54);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_26 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(55);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_25 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(56);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_24 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(57);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_23 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(58);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_22 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(59);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_21 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(60);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_20 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(61);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_19 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(62);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_83 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_17 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(63);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_16 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(64);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_15 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(65);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_14 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(66);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_13 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(67);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_12 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(68);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_11 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(69);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_10 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(70);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_9 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(71);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_8 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(72);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_7 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(73);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_6 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(74);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_5 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(75);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_4 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(76);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_3 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(77);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_2 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(78);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.CachedBmp_82 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
-	this.gotoAndStop(1);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap1811 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
-	this.gotoAndStop(2);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap18 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(79);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap19 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(80);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap19_1 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
-	this.gotoAndStop(3);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap22 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
-	this.gotoAndStop(0);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap22_1 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(81);
-}).prototype = p = new cjs.Sprite();
-
-
-
-(lib.Bitmap23 = function() {
 	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
 	this.gotoAndStop(0);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Bitmap23_1 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(82);
+(lib.CachedBmp_80 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_79 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_78 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_77 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(4);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_76 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(5);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_75 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(6);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_74 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(7);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_73 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(8);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_72 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(9);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_71 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(10);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_70 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(11);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_69 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(12);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_68 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(13);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_67 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(14);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_66 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(15);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_65 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(16);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_64 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(17);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_63 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(18);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_62 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(19);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_61 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(20);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_60 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(21);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_59 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(22);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_58 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(23);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_57 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(24);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_56 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(25);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_55 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(26);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_54 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(27);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_53 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(28);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_52 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(29);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_51 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(30);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_50 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(31);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_49 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(32);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_48 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(33);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_47 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(34);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_46 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(35);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_45 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(36);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_44 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(37);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_43 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(38);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_42 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(39);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_41 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(40);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_40 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(41);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_39 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(42);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_38 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(43);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_37 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(44);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_36 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(45);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_35 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(46);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_34 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(47);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_33 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(48);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_32 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(49);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_31 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(50);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_30 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(51);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_29 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(52);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_28 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(53);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_27 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(54);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_26 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(55);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_25 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(56);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_24 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(57);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_23 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(58);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_22 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(59);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_21 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(60);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_20 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(61);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_19 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(62);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_18 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
+	this.gotoAndStop(0);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_17 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(63);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_16 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(64);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_15 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(65);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_14 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(66);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_13 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(67);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_12 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(68);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_11 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(69);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_10 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(70);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_9 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(71);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_8 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(72);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_7 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(73);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_6 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(74);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_5 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(75);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_4 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(76);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_3 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(77);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_2 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(78);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.CachedBmp_1 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
+	this.gotoAndStop(1);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap1811 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
+	this.gotoAndStop(2);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap18 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(79);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap19 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
+	this.gotoAndStop(3);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap22 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(80);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Bitmap23 = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(81);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap24 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
 	this.gotoAndStop(4);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap25 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(83);
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(82);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap26 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(84);
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(83);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap27 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
-	this.gotoAndStop(85);
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(84);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap28 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_3"]);
+	this.initialize(ss["Chicago_Map_FIX_atlas_1"]);
 	this.gotoAndStop(5);
 }).prototype = p = new cjs.Sprite();
 
 
 
 (lib.Bitmap29 = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(85);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Venue_vis_Test_M = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
 	this.gotoAndStop(86);
 }).prototype = p = new cjs.Sprite();
 
 
 
-(lib.Venue_vis_Test_SP = function() {
-	this.initialize(ss["Chicago_Map_FIX_atlas_4"]);
+(lib.Venue_vis_Test_P = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
 	this.gotoAndStop(87);
+}).prototype = p = new cjs.Sprite();
+
+
+
+(lib.Venue_vis_Test_SP = function() {
+	this.initialize(ss["Chicago_Map_FIX_atlas_2"]);
+	this.gotoAndStop(88);
 }).prototype = p = new cjs.Sprite();
 // helper functions:
 
@@ -1172,14 +1163,13 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.Bitmap23();
-	this.instance_1.setTransform(0,1,0.3567,0.3567);
+	this.instance_1 = new lib.Venue_vis_Test_P();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.IMGP, new cjs.Rectangle(0,1,629.2,492.2), null);
+}).prototype = getMCSymbolPrototype(lib.IMGP, new cjs.Rectangle(0,0,630,493), null);
 
 
 (lib.IMGM = function(mode,startPosition,loop,reversed) {
@@ -1197,14 +1187,13 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.Bitmap22();
-	this.instance_1.setTransform(-1,0,0.3571,0.3571);
+	this.instance_1 = new lib.Venue_vis_Test_M();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
 	this._renderFirstFrame();
 
-}).prototype = getMCSymbolPrototype(lib.IMGM, new cjs.Rectangle(-1,0,630.6,494.3), null);
+}).prototype = getMCSymbolPrototype(lib.IMGM, new cjs.Rectangle(0,0,630,493), null);
 
 
 (lib.FIMG10 = function(mode,startPosition,loop,reversed) {
@@ -1366,7 +1355,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.Bitmap23_1();
+	this.instance_1 = new lib.Bitmap23();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -1390,7 +1379,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.Bitmap22_1();
+	this.instance_1 = new lib.Bitmap22();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -1414,7 +1403,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.ClipGroup();
 	this.instance.setTransform(601.8,27.75,0.1864,0.1864,0,0,0,46.1,46.1);
 
-	this.instance_1 = new lib.Bitmap19_1();
+	this.instance_1 = new lib.Bitmap19();
 
 	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance_1},{t:this.instance}]}).wait(1));
 
@@ -2557,11 +2546,7 @@ if (reversed == null) { reversed = false; }
 	this.instance.setTransform(326,247.5,1,1,0,0,0,315,246.5);
 	this.instance.alpha = 0;
 
-	this.instance_1 = new lib.Bitmap19();
-	this.instance_1.setTransform(282,198);
-
-	this.timeline.addTween(cjs.Tween.get({}).to({state:[{t:this.instance}]}).to({state:[{t:this.instance},{t:this.instance_1}]},14).to({state:[{t:this.instance}]},15).wait(1));
-	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.014,scaleY:1.014,x:326.05,y:247.55,alpha:1},14).wait(15).to({scaleX:1,scaleY:1,x:326,y:247.5,alpha:0},0).wait(1));
+	this.timeline.addTween(cjs.Tween.get(this.instance).to({scaleX:1.014,scaleY:1.014,x:326.05,y:247.55,alpha:1},14).to({scaleX:1,scaleY:1,x:326,y:247.5,alpha:0},15).wait(1));
 
 	this._renderFirstFrame();
 
@@ -2701,7 +2686,7 @@ if (reversed == null) { reversed = false; }
 		Play a Movie Clip/Video or the current timeline.
 		Plays the specified movie clip or video.
 		*/
-		_this.IP.play();
+		_this.MP.play();
 		});
 	}
 
@@ -2714,13 +2699,6 @@ if (reversed == null) { reversed = false; }
 	this.MP.setTransform(350,275,1,1,0,0,0,326,247.5);
 
 	this.timeline.addTween(cjs.Tween.get(this.MP).wait(1));
-
-	// IP
-	this.IP = new lib.PP();
-	this.IP.name = "IP";
-	this.IP.setTransform(350,275,1,1,0,0,0,326,246.5);
-
-	this.timeline.addTween(cjs.Tween.get(this.IP).wait(1));
 
 	// PP
 	this.PP = new lib.PP();
@@ -2903,7 +2881,7 @@ if (reversed == null) { reversed = false; }
 	this.instance = new lib.CachedBmp_81();
 	this.instance.setTransform(619.55,524.75,0.5,0.5);
 
-	this.instance_1 = new lib.CachedBmp_84();
+	this.instance_1 = new lib.CachedBmp_80();
 	this.instance_1.setTransform(167.25,398.75,0.5,0.5);
 
 	this.instance_2 = new lib.CachedBmp_79();
@@ -3089,7 +3067,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_62 = new lib.CachedBmp_19();
 	this.instance_62.setTransform(178.45,20.1,0.5,0.5);
 
-	this.instance_63 = new lib.CachedBmp_83();
+	this.instance_63 = new lib.CachedBmp_18();
 	this.instance_63.setTransform(73.9,16.65,0.5,0.5);
 
 	this.instance_64 = new lib.CachedBmp_17();
@@ -3114,7 +3092,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_70.setTransform(69.65,473.95,0.5,0.5);
 
 	this.instance_71 = new lib.CachedBmp_10();
-	this.instance_71.setTransform(54.25,81.65,0.5,0.5);
+	this.instance_71.setTransform(53.25,81.65,0.5,0.5);
 
 	this.instance_72 = new lib.CachedBmp_9();
 	this.instance_72.setTransform(163.4,474.65,0.5,0.5);
@@ -3164,7 +3142,7 @@ if (reversed == null) { reversed = false; }
 	this.instance_85.setTransform(157.25,207.05,0.46,0.46,0,0,0,50.2,12.7);
 	this.instance_85.alpha = 0.2813;
 
-	this.instance_86 = new lib.CachedBmp_82();
+	this.instance_86 = new lib.CachedBmp_1();
 	this.instance_86.setTransform(16.85,15.35,0.5,0.5);
 
 	this.MP_1 = new lib.Path_58();
@@ -3188,9 +3166,7 @@ lib.properties = {
 	opacity: 0.00,
 	manifest: [
 		{src:"images/Chicago_Map_FIX_atlas_1.png", id:"Chicago_Map_FIX_atlas_1"},
-		{src:"images/Chicago_Map_FIX_atlas_2.png", id:"Chicago_Map_FIX_atlas_2"},
-		{src:"images/Chicago_Map_FIX_atlas_3.png", id:"Chicago_Map_FIX_atlas_3"},
-		{src:"images/Chicago_Map_FIX_atlas_4.png", id:"Chicago_Map_FIX_atlas_4"}
+		{src:"images/Chicago_Map_FIX_atlas_2.png", id:"Chicago_Map_FIX_atlas_2"}
 	],
 	preloads: []
 };
